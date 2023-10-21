@@ -1,0 +1,111 @@
+header{
+    width:100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+}
+.cards{
+    background-image: linear-gradient(red, yellow);
+    width: 18%;
+    height: 300px;
+    margin-top: 20px;
+
+ 
+    text-align: center;
+    border-radius: 20px;
+    
+    
+
+}
+
+.cards:hover{
+    background-image: linear-gradient(rgb(30, 255, 0), rgb(0, 217, 255));
+}
+
+
+.logo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#img23{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+}
+span{
+    color: whitesmoke;
+  padding-left: 50px;
+    padding-top: 10px;
+    font-size: 26px;
+    
+}
+
+li{
+    display: inline-block;
+    padding-left: 11px;
+
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer li a{
+    text-decoration: none;
+    color: rgb(44, 59, 196);
+
+ 
+   
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+.cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.cards img:hover{
+    border-radius: 40px;
+}
+h2{
+
+    color: greenyellow;
+}
+h3{
+
+    color: greenyellow;
+}
+nav{
+margin-right: 100px;
+margin-top: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+#h15{
+    text-align: left;
+    margin-left: 20px;
+    color: whitesmoke;
+}
